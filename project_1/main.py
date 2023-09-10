@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 
 app = FastAPI()
 
-@app.get("/{slack_name}/{track}")
+@app.get("/api")
 def hng_get_request(slack_name:str,track:str):
     return {
         "slack_name":slack_name,
