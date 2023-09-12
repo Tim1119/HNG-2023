@@ -111,8 +111,8 @@ curl -X PUT -d '{"name": "Femi Falana", "age": 26, "email": "femi.falana@example
 
 
 ## Known Limitations and Assumptions
-*The API assumes that the name field is unique, and it uses the name as the identifier for CRUD operations.
-*Security features, such as authentication and authorization, are not implemented in this project.
+* The API assumes that the name field is unique, and it uses the name as the identifier for CRUD operations.
+* Security features, such as authentication and authorization, are not implemented in this project.
 
 ## Setup and Deployment
 - Clone the project to your local computer using *git clone [url]* command
