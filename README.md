@@ -46,14 +46,14 @@ This documentation provides information on how to use my FastAPI CRUD API for ma
   "name": "string",
   "age": integer,
   "email": "string"
-}
+  }
 - **Response Format**:
   ```json
- {
+  {
   "name": "string",
   "age": integer,
   "email": "string"
-}
+  }
 
 ### 4. Delete a Person
 
